@@ -1,5 +1,8 @@
 // import DaisyNav from './Components/DaisyNav/DaisyNav'
-import NavBar from './Components/NavBar/NavBar'
+// import NavBar from './Components/NavBar/NavBar'
+// import PriceOptions from './Components/PriceOptions/PriceOptions'
+// import SimpleForm from './Components/SimpleForm/SimpleForm'
+import RefForm from "./Components/RefForm/RefForm"
 function App() {
 
 
@@ -7,8 +10,11 @@ function App() {
     <>
 
       {/* <h1>Vite + React</h1> */}
-      <NavBar></NavBar>
+      {/* <NavBar></NavBar>
+      <PriceOptions></PriceOptions> */}
       {/* <DaisyNav></DaisyNav> */}
+      {/* <SimpleForm></SimpleForm> */}
+      <RefForm></RefForm>
     </>
   )
 }
