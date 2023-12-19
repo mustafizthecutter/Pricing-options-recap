@@ -2,7 +2,8 @@
 // import NavBar from './Components/NavBar/NavBar'
 // import PriceOptions from './Components/PriceOptions/PriceOptions'
 // import SimpleForm from './Components/SimpleForm/SimpleForm'
-import RefForm from "./Components/RefForm/RefForm"
+// import RefForm from "./Components/RefForm/RefForm"
+import HookForm from "./Components/HookForm/HookForm"
 function App() {
 
 
@@ -14,7 +15,8 @@ function App() {
       <PriceOptions></PriceOptions> */}
       {/* <DaisyNav></DaisyNav> */}
       {/* <SimpleForm></SimpleForm> */}
-      <RefForm></RefForm>
+      {/* <RefForm></RefForm> */}
+      <HookForm></HookForm>
     </>
   )
 }
